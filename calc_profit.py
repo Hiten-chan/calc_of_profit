@@ -78,4 +78,5 @@ while re_amount < amount * mult:
     result += 1
 
 # Show result
-print('\nСумма первоначального вклада увеличится в {0} раз(a) через {1} {2} и будет равна {3} руб.'.format(mult, result, dec_word(result), round(re_amount, 2)))
+print('\nСумма первоначального вклада увеличится в {0} раз(a) '
+      'через {1} {2} и будет равна {3} руб.'.format(mult, result, dec_word(result), round(re_amount, 2)))
